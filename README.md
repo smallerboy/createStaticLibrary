@@ -7,7 +7,7 @@
 <pre>Framework&Library</pre>
 2.修改Build Configuration为Release模式  
 <pre>若为Debug模式,大包生成的library会存在Debug-phones/phonessimulator</pre>
-3.设置Build Active Architecture<pre><code>targer->BuildSetting->Build Active Architecture Only</code>设置为NO(为YES时,编译的.a静态包为当前的设备指令集)</pre>
+3.设置Build Active Architecture<pre><code>targer->BuildSetting->Build Active Architecture Only -Release</code>设置为NO(为YES时,编译的.a静态包为当前的设备指令集)</pre>
 
 #####模拟器&真机
 <pre>simulator iphone4s~5为i386 5s~6p 为x86_64</pre>
